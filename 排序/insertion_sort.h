@@ -2,17 +2,6 @@
 #include <vector>
 using namespace std;
 
-/*
-时间复杂度
-最坏情况：O(n²)  平均情况：O(n²)
-
-空间复杂度
-O(1) 不需要额外的空间
-
-稳定排序
-
-适用情况：在元素数量比较少时速度很快
-*/
 void insertion_sort(vector<int>& A)
 {
 	for (int i = 1; i < A.size(); ++i)
